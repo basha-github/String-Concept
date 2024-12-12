@@ -3,11 +3,8 @@ public class Demo2 {
 
 	public static void main(String[] args) {
 		
-		//String str = "Welcome to Java World. do not laugh. some One Monotoring You";
-		
-		// Welcome to java world. Do not laugh. Some one monotoring you
-		
 		String name = "ramu";
+		// RAMU
 		
 		char ch = name.charAt(0);
 		int diff = (int)('d'-'D');
@@ -18,8 +15,6 @@ public class Demo2 {
 			ch = (char)(ch -diff);
 		}
 		System.out.println(ch);
-		
-		
 		
 	}
 
