@@ -3,10 +3,8 @@ public class Demo1 {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter 2 names");
-	
 		String name1 = sc.next();
 		String name2 = sc.next();
-		
 		System.out.println("Before Swapping");
 		System.out.println("name1------->"+name1);
 		System.out.println("name2------->"+name2);
