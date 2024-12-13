@@ -25,9 +25,6 @@ public class DemoImm {
 		System.out.println("From String --->"+diffT);
 		System.out.println("From StringBuffer --->"+diffT1);
 		
-		
-		
-		
-	}
+		}
 
 }
