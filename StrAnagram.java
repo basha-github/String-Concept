@@ -4,6 +4,9 @@ public class StrAnagram {
 		//Java Program To Check Whether Two Strings Are Anagram
 		// listen
 		// silent
+		
+		// 1234
+		// 15234
 		Scanner sc = new Scanner(System.in);
 		System.out.println("enter 2 strings");
 		String str1 = sc.next();
@@ -11,7 +14,9 @@ public class StrAnagram {
 		sc.close();
 		char eachCh = ' ';
 		boolean isAnagram = false;
-		if(str1.length() == str2.length()) {
+		
+		
+		//if(str1.length() == str2.length()) {
 			for(int i=0;i<str1.length();i++) {
 				eachCh = str1.charAt(i);
 				if(isCharThere(str2,eachCh) == true) {
@@ -19,11 +24,12 @@ public class StrAnagram {
 				}// if
 				else {
 					isAnagram = false;
+					System.out.println("missing char--->"+eachCh);
 					break;
 				}
 			}// for
 				
-		}//if
+		//}//if
 		
 		if(isAnagram == true) System.out.println("Yes it is Anagram");
 		else System.out.println("Not Anagram");

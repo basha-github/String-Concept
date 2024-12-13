@@ -9,6 +9,7 @@ public class StrAnagramV2 {
 		String str1 = sc.next();
 		String str2 = sc.next();
 		sc.close();
+		
 		char eachCh = ' ';
 		boolean isAnagram = true;
 		if(str1.length() == str2.length()) {
